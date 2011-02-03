@@ -3,8 +3,8 @@ Contributors: keyvan
 Donate link: http://www.keyvan.net/code/processing-js/#donate
 Tags: processing, processing js, processingjs, animation, embed, sketch
 Requires at least: 2.8
-Tested up to: 2.8.4
-Stable tag: 0.5
+Tested up to: 3.0.4
+Stable tag: 1.0
 
 A plugin for WordPress to make it easy to include Processing JS sketches into blog posts.
 
@@ -36,6 +36,9 @@ Processing.js runs in Firefox, Safari, Opera and Chrome
 1. Floating flowers inside a blog post
 
 == Changelog ==
+
+= 1.0 =
+* Updated to use ProcessingJS 1.0 - thanks to digitalawakening: http://wordpress.org/support/topic/plugin-processing-js-updating-to-processingjs-10
 
 = 0.5 =
 * Initial release

@@ -3,14 +3,14 @@
 Plugin Name: Processing JS
 Plugin URI: http://www.keyvan.net/code/processing-js/
 Donate link: http://www.keyvan.net/code/processing-js/#donate
-Description: Embed Processing sketches into your posts
+Description: Embed Processing sketches into your posts. Go into HTML mode when editing posts and use the 'processing' button to insert a template. See <a href="http://processingjs.org/">processingjs.org</a> for more information.
 Author: Keyvan Minoukadeh
-Version: 0.5
+Version: 1.0
 Author URI: http://www.keyvan.net/
 */
 
 /*
-Copyright 2009 Keyvan Minoukadeh
+Copyright 2011 Keyvan Minoukadeh
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -29,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //ini_set('display_errors', 1);
 add_action('init', 'pjs_init');
 function pjs_init() {
-	wp_enqueue_script('processing-js', plugin_dir_url(__FILE__) . 'js/processing.min.js');
+	wp_enqueue_script('processing-js', plugin_dir_url(__FILE__) . 'js/processing-1.0.0.min.js');
 	wp_enqueue_script('processing-init', plugin_dir_url(__FILE__) .'js/init.js', array('jquery'));
 }
 

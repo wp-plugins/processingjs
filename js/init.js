@@ -24,7 +24,7 @@ if ( window.addEventListener ) {
 				jQuery(scripts[i]).after(canvas);
 				if (canvas) {
 					try {
-						Processing(canvas, scripts[i].text);
+						new Processing(canvas, scripts[i].text);
 					} catch (e) {
 						alert("There appears to be a problem with the Processing code...\n\n " + e.name + "\n\n" + e.message);
 					}
